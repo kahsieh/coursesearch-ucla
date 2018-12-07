@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<!--
+CourseSearch for UCLA
+index.html
+
+Copyright (c) 2015-2018 Kevin Hsieh. All Rights Reserved.
+-->
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="shortcut icon" href="favicon.ico" />
+<title>CourseSearch</title>
+<link rel="stylesheet" href="materialize/materialize.css">
+<link rel="stylesheet" href="materialize/icon.css">
+<link rel="stylesheet" href="styles.css">
+<script src="materialize/materialize.js"></script>
+<script src="coursesearch.js"></script>
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+  M.Tooltip.init(document.querySelectorAll('.tooltipped'), {});
+});
+</script>
+</head>
+<body>
+<header><nav>
+  <div class="nav-wrapper container"><a href="" class="brand-logo">
+    <i class="material-icons">explore</i>CourseSearch
+  </a></div>
+</nav></header>
+
+<main class="container">
+  <div id="update-bar" class="row center-align hide"><div class="col s12">
+    An update is available! Click <a id="update-link" target="_blank">here</a>
+    to download it.
+  </div></div>
+  <div class="row"><div class="col s12 input-field center-align">
+    <span id="message"></span>
+  </div></div>
+</main>
+
+<footer class="page-footer grey lighten-3 black-text"><div class="container">
+  <a target="_blank" href="https://github.com/kahsieh/coursesearch-ucla">
+    CourseSearch for UCLA</a>
+  <span id="app-version"></span>
+  Copyright © 2015–2018
+  <a target="_blank" href="https://www.kevinhsieh.net">Kevin Hsieh</a>.
+  All Rights Reserved.
+</div></footer>
+</body>
+</html>

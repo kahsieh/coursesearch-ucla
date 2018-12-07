@@ -1,0 +1,21 @@
+/*
+CourseSearch for UCLA
+styles.css
+
+Copyright (c) 2015-2018 Kevin Hsieh. All Rights Reserved.
+*/
+
+body {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+main {
+  flex: 1 0 auto;
+  padding: 25px 0px;
+}
+
+.page-footer {
+  padding: 15px 0px;
+}
