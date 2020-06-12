@@ -12,3 +12,5 @@ Enter the term code, followed by the department abbreviation. For example,
 - EE or ECE → EC ENGR
 - MSE → MAT SCI
 - MAE → MECH&AE
+
+Copyright © 2015–2018 Kevin Hsieh. All Rights Reserved. 
